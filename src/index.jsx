@@ -12,7 +12,7 @@ var colorMap = {
 };
 
 export default class Shields extends Component {
-  static displayName = 'Shields';
+  static displayName = 'react-shields';
 
   static propTypes = {
     color: PropTypes.string,
