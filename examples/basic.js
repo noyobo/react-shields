@@ -21069,7 +21069,7 @@ webpackJsonp([0,1],[
 	    var color = this.props.color || 'yellow';
 	    var styles = {
 	      shields: {
-	        fontSize: '11',
+	        fontSize: '11px',
 	        fontFamily: "'Lucida Console', Monaco, monospace, sans-serif",
 	        lineHeight: '20px',
 	        color: '#fff',
