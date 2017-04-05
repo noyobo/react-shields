@@ -28,7 +28,7 @@ export default class Shields extends Component {
     const color = this.props.color || 'yellow';
     const styles = {
       shields: {
-        fontSize: '11',
+        fontSize: '11px',
         fontFamily: "'Lucida Console', Monaco, monospace, sans-serif",
         lineHeight: '20px',
         color: '#fff',
