@@ -16,11 +16,11 @@ import Shields from 'react-shields';
 
 ### `color`
 
--`#e05d44` red
--`#fe7d37` orange
--`#97CA00` green
--`#44cc11` brightgreen
--`#a4a61d` yellowgreen
--`#dfb317` yellow
--`#9f9f9f` lightgrey
--`#007ec6` blue
+- ![#e05d44](https://placehold.it/15/e05d44/000000?text=+) red
+- ![#fe7d37](https://placehold.it/15/fe7d37/000000?text=+) orange
+- ![#97CA00](https://placehold.it/15/97CA00/000000?text=+) green
+- ![#44cc11](https://placehold.it/15/44cc11/000000?text=+) brightgreen
+- ![#a4a61d](https://placehold.it/15/a4a61d/000000?text=+) yellowgreen
+- ![#dfb317](https://placehold.it/15/dfb317/000000?text=+) yellow
+- ![#9f9f9f](https://placehold.it/15/9f9f9f/000000?text=+) lightgrey
+- ![#007ec6](https://placehold.it/15/007ec6/000000?text=+) blue
