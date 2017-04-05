@@ -1,0 +1,44 @@
+{
+  "name": "react-shields",
+  "version": "1.0.0",
+  "description": "shields html",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noyobo/react-shields.git"
+  },
+  "keywords": [
+    "react",
+    "shields"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "noyobo <noyobo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noyobo/react-shields/issues"
+  },
+  "homepage": "https://github.com/noyobo/react-shields#readme",
+  "config": {
+    "port": 8081
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run update-self && rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "karma": "rc-tools run karma",
+    "saucelabs": "rc-tools run saucelabs",
+    "test": "rc-tools run test",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage",
+    "prepublish": "rc-tools run guard"
+  },
+  "devDependencies": {
+    "rc-tools": "^5.11.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
