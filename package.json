@@ -2,7 +2,7 @@
   "name": "react-shields",
   "version": "1.0.0",
   "description": "shields html",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noyobo/react-shields.git"
@@ -12,7 +12,7 @@
     "shields"
   ],
   "files": [
-    "lib"
+    "lib/"
   ],
   "author": "noyobo <noyobo@gmail.com>",
   "license": "MIT",
