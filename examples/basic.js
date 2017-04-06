@@ -21031,6 +21031,8 @@ webpackJsonp([0,1],[
 	  value: true
 	});
 	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
 	var _react = __webpack_require__(2);
 	
 	var _react2 = _interopRequireDefault(_react);
@@ -21066,6 +21068,8 @@ webpackJsonp([0,1],[
 	  }
 	
 	  Shields.prototype.render = function render() {
+	    var style = this.props.style;
+	
 	    var color = this.props.color || 'yellow';
 	    var styles = {
 	      shields: {
@@ -21073,8 +21077,7 @@ webpackJsonp([0,1],[
 	        fontFamily: "'Lucida Console', Monaco, monospace, sans-serif",
 	        lineHeight: '20px',
 	        color: '#fff',
-	        borderRadius: '3px',
-	        marginLeft: '4px'
+	        borderRadius: '3px'
 	      },
 	      subject: {
 	        backgroundColor: '#555',
@@ -21092,7 +21095,9 @@ webpackJsonp([0,1],[
 	
 	    return _react2.default.createElement(
 	      'span',
-	      { style: styles.shields },
+	      {
+	        style: _extends({}, styles.shields, style)
+	      },
 	      _react2.default.createElement(
 	        'span',
 	        { style: styles.subject },
