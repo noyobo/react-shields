@@ -25,6 +25,7 @@ export default class Shields extends Component {
   }
 
   render() {
+    const { style } = this.props;
     const color = this.props.color || 'yellow';
     const styles = {
       shields: {
@@ -32,8 +33,7 @@ export default class Shields extends Component {
         fontFamily: "'Lucida Console', Monaco, monospace, sans-serif",
         lineHeight: '20px',
         color: '#fff',
-        borderRadius: '3px',
-        marginLeft: '4px'
+        borderRadius: '3px'
       },
       subject: {
         backgroundColor: '#555',
@@ -50,7 +50,12 @@ export default class Shields extends Component {
     };
 
     return (
-      <span style={styles.shields}>
+      <span
+        style={{
+          ...styles.shields,
+          ...style
+        }}
+      >
         <span style={styles.subject}>{this.props.subject}</span>
         <span style={styles.status}>{this.props.status}</span>
       </span>
