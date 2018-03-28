@@ -1,5 +1,7 @@
 # react-shields
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/noyobo/react-shields.svg)](https://greenkeeper.io/)
+
 [![npm package](https://img.shields.io/npm/v/react-shields.svg)](https://www.npmjs.org/package/react-shields) [![NPM downloads](http://img.shields.io/npm/dm/react-shields.svg)](https://npmjs.org/package/react-shields) 
 
 ## Example
