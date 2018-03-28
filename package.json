@@ -37,8 +37,8 @@
     "prepublish": "rc-tools run guard"
   },
   "devDependencies": {
-    "rc-tools": "^5.11.4",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "rc-tools": "^7.0.8",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
